@@ -4,8 +4,9 @@
 Neural style transfer is an optimization technique used to take two images—a content image and a style reference image (such as an artwork by a famous painter)—and blend them together so the output image looks like the content image, but “painted” in the style of the style reference image.
 
 This is implemented by using tensorflow pretrained model vgg19, accessing and changing the intermediate layers of the model, extracting style and content, running gradient descent and total variation loss and optimizing the output image to match the content statistics of the content image and the style statistics of the style reference image. These statistics are extracted from the images using a convolutional network.
-![image](https://github.com/user-attachments/assets/229e96b6-7b19-4d84-8c8a-1e6bf9647189)
-![image](https://github.com/user-attachments/assets/817601ab-a00f-47e7-8a4e-fb6ba69b42e8)
+![image](https://github.com/user-attachments/assets/dc82cb4f-866b-4f43-a305-2c90f1012424)
+![image](https://github.com/user-attachments/assets/6726d2a1-accb-45e0-a932-96238101103f)
+
 
 
 ## Get started
