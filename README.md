@@ -61,7 +61,7 @@ pretrain_model:
 ## Dockerfile
 
 ```
-FROM python:3.10.2
+FROM python:3.10.13
 RUN pip install virtualenv
 RUN virtualenv /env
 ENV VIRTUAL_ENV=/env
