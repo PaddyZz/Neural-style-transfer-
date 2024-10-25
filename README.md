@@ -13,7 +13,7 @@ This is implemented by using tensorflow pretrained model vgg19, accessing and ch
 
 
 
-## Get started
+## Get Started
 
 ```python
 # create a new conda env and install the dependency file
