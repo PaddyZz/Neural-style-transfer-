@@ -46,6 +46,13 @@ data_ingestion:
   style_image_URL: 'replace with new style_image_URL'
 ```
 
+## Update Model wights file
+```yaml
+# /root_dir/config/config.yaml
+pretrain_model:
+  weights_dir: 'replace with new weights file dir'
+```
+
 ## Dockerfile
 
 ```
