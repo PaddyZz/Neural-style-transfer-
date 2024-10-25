@@ -9,6 +9,7 @@ def model_save(extractor, config:EvaluateConfig):
         tf.saved_model.save(extractor,config.tf_saved_model_dir)
 
 def image_save(image, config:EvaluateConfig):
-    if not os.path.exists(dir_image):
-        os.makedirs(dir_image)
+    image_path_name = os.path.dirname(config.image_saved_path)
+    if not os.path.exists(image_path_name):
+        os.makedirs(image_path_name)
     image.save(config.image_saved_path)
