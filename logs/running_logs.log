@@ -1,0 +1,470 @@
+[2024-10-24 21:44:36,899: INFO: main: lol]
+[2024-10-25 20:04:56,847: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 20:04:56,869: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 20:04:56,871: INFO: common: created directory at: artifacts]
+[2024-10-25 20:04:56,872: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-25 20:04:56,880: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 20:04:56,888: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 20:04:56,890: INFO: common: created directory at: artifacts]
+[2024-10-25 20:04:56,892: INFO: common: created directory at: artifacts\train_model]
+[2024-10-25 20:04:56,899: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 20:04:56,906: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 20:04:56,907: INFO: common: created directory at: artifacts]
+[2024-10-25 20:04:56,908: INFO: main: >>>>>> stage DATA_INGESTION started <<<<<<]
+[2024-10-25 20:05:35,828: INFO: main: >>>>>> stage DATA_INGESTION completed <<<<<<
+
+x==========x]
+[2024-10-25 20:05:35,828: INFO: main: >>>>>> stage PRETRAIN_MODEL started <<<<<<]
+[2024-10-25 20:05:35,835: ERROR: main: vgg_layers() missing 1 required positional argument: 'config']
+Traceback (most recent call last):
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\main.py", line 23, in <module>
+    extractor = StyleContentModel(train_model_config.style_layers, train_model_config.content_layers)
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\components\pretrain_model.py", line 25, in __init__
+    self.vgg = vgg_layers(style_layers + content_layers)
+TypeError: vgg_layers() missing 1 required positional argument: 'config'
+[2024-10-25 20:25:11,573: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 20:25:11,583: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 20:25:11,584: INFO: common: created directory at: artifacts]
+[2024-10-25 20:25:11,585: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-25 20:25:11,592: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 20:25:11,600: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 20:25:11,602: INFO: common: created directory at: artifacts]
+[2024-10-25 20:25:11,603: INFO: common: created directory at: artifacts\train_model]
+[2024-10-25 20:25:11,611: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 20:25:11,615: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 20:25:11,617: INFO: common: created directory at: artifacts]
+[2024-10-25 20:25:11,618: INFO: main: >>>>>> stage DATA_INGESTION started <<<<<<]
+[2024-10-25 20:25:11,865: INFO: main: >>>>>> stage DATA_INGESTION completed <<<<<<
+
+x==========x]
+[2024-10-25 20:25:11,866: INFO: main: >>>>>> stage PRETRAIN_MODEL started <<<<<<]
+[2024-10-25 20:25:11,870: ERROR: main: StyleContentModel.__init__() missing 1 required positional argument: 'config']
+Traceback (most recent call last):
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\main.py", line 23, in <module>
+    extractor = StyleContentModel(train_model_config.style_layers, train_model_config.content_layers)
+TypeError: StyleContentModel.__init__() missing 1 required positional argument: 'config'
+[2024-10-25 20:30:42,775: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 20:30:42,781: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 20:30:42,784: INFO: common: created directory at: artifacts]
+[2024-10-25 20:30:42,784: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-25 20:30:42,785: ERROR: main: ConfigurationManager.get_prepare_base_model_config() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\main.py", line 14, in <module>
+    pretrain_model_config = ConfigurationManager.get_prepare_base_model_config()
+TypeError: ConfigurationManager.get_prepare_base_model_config() missing 1 required positional argument: 'self'
+[2024-10-25 20:39:28,075: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 20:39:28,087: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 20:39:28,088: INFO: common: created directory at: artifacts]
+[2024-10-25 20:39:28,090: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-25 20:39:28,092: ERROR: main: ConfigurationManager.get_prepare_base_model_config() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\main.py", line 14, in <module>
+    pretrain_model_config = ConfigurationManager.get_prepare_base_model_config()
+TypeError: ConfigurationManager.get_prepare_base_model_config() missing 1 required positional argument: 'self'
+[2024-10-25 20:40:06,020: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 20:40:06,027: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 20:40:06,029: INFO: common: created directory at: artifacts]
+[2024-10-25 20:40:06,030: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-25 20:40:06,040: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 20:40:06,045: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 20:40:06,047: INFO: common: created directory at: artifacts]
+[2024-10-25 20:40:06,049: INFO: common: created directory at: artifacts/pretrain_model]
+[2024-10-25 20:40:06,060: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 20:40:06,071: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 20:40:06,074: INFO: common: created directory at: artifacts]
+[2024-10-25 20:40:06,075: INFO: common: created directory at: artifacts\train_model]
+[2024-10-25 20:40:06,088: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 20:40:06,092: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 20:40:06,093: INFO: common: created directory at: artifacts]
+[2024-10-25 20:40:06,094: INFO: main: >>>>>> stage DATA_INGESTION started <<<<<<]
+[2024-10-25 20:40:06,323: INFO: main: >>>>>> stage DATA_INGESTION completed <<<<<<
+
+x==========x]
+[2024-10-25 20:40:06,324: INFO: main: >>>>>> stage PRETRAIN_MODEL started <<<<<<]
+[2024-10-25 20:40:27,358: INFO: main: >>>>>> stage PRETRAIN_MODEL completed <<<<<<
+
+x==========x]
+[2024-10-25 20:40:27,358: INFO: main: >>>>>> stage TRAIN_MODEL started <<<<<<]
+[2024-10-25 20:40:27,360: ERROR: main: train_step() missing 2 required positional arguments: 'extractor' and 'config']
+Traceback (most recent call last):
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\main.py", line 32, in <module>
+    train_model(image, config=train_model_config)
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\components\train_model.py", line 26, in train_model
+    train_step(image)
+TypeError: train_step() missing 2 required positional arguments: 'extractor' and 'config'
+[2024-10-25 20:44:47,978: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 20:44:47,995: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 20:44:47,997: INFO: common: created directory at: artifacts]
+[2024-10-25 20:44:48,000: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-25 20:44:48,011: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 20:44:48,027: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 20:44:48,029: INFO: common: created directory at: artifacts]
+[2024-10-25 20:44:48,032: INFO: common: created directory at: artifacts/pretrain_model]
+[2024-10-25 20:44:48,038: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 20:44:48,041: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 20:44:48,043: INFO: common: created directory at: artifacts]
+[2024-10-25 20:44:48,044: INFO: common: created directory at: artifacts\train_model]
+[2024-10-25 20:44:48,054: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 20:44:48,060: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 20:44:48,061: INFO: common: created directory at: artifacts]
+[2024-10-25 20:44:48,064: INFO: main: >>>>>> stage DATA_INGESTION started <<<<<<]
+[2024-10-25 20:44:48,290: INFO: main: >>>>>> stage DATA_INGESTION completed <<<<<<
+
+x==========x]
+[2024-10-25 20:44:48,291: INFO: main: >>>>>> stage PRETRAIN_MODEL started <<<<<<]
+[2024-10-25 20:45:08,756: INFO: main: >>>>>> stage PRETRAIN_MODEL completed <<<<<<
+
+x==========x]
+[2024-10-25 20:45:08,756: INFO: main: >>>>>> stage TRAIN_MODEL started <<<<<<]
+[2024-10-25 20:45:12,854: ERROR: main: style_content_loss() missing 4 required positional arguments: 'content_targets', 'num_content_layers', 'num_style_layers', and 'config']
+Traceback (most recent call last):
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\main.py", line 32, in <module>
+    train_model(image, extractor,config=train_model_config)
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\components\train_model.py", line 26, in train_model
+    train_step(image, extractor=extractor, config=config)
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\components\train_model.py", line 10, in train_step
+    loss = style_content_loss(outputs, config)
+TypeError: style_content_loss() missing 4 required positional arguments: 'content_targets', 'num_content_layers', 'num_style_layers', and 'config'
+[2024-10-25 21:01:35,466: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:01:35,472: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:01:35,474: INFO: common: created directory at: artifacts]
+[2024-10-25 21:01:35,477: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-25 21:01:35,484: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:01:35,496: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:01:35,500: INFO: common: created directory at: artifacts]
+[2024-10-25 21:01:35,503: INFO: common: created directory at: artifacts/pretrain_model]
+[2024-10-25 21:01:35,515: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:01:35,520: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:01:35,522: INFO: common: created directory at: artifacts]
+[2024-10-25 21:01:35,524: INFO: common: created directory at: artifacts\train_model]
+[2024-10-25 21:01:35,531: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:01:35,537: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:01:35,539: INFO: common: created directory at: artifacts]
+[2024-10-25 21:01:35,542: INFO: main: >>>>>> stage DATA_INGESTION started <<<<<<]
+[2024-10-25 21:01:35,814: INFO: main: >>>>>> stage DATA_INGESTION completed <<<<<<
+
+x==========x]
+[2024-10-25 21:01:35,815: INFO: main: >>>>>> stage PRETRAIN_MODEL started <<<<<<]
+[2024-10-25 21:02:14,978: INFO: main: >>>>>> stage PRETRAIN_MODEL completed <<<<<<
+
+x==========x]
+[2024-10-25 21:02:14,996: INFO: main: >>>>>> stage TRAIN_MODEL started <<<<<<]
+[2024-10-25 21:02:15,005: ERROR: main: train_model() missing 2 required positional arguments: 'style_image' and 'extractor']
+Traceback (most recent call last):
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\main.py", line 32, in <module>
+    train_model(image, extractor,config=train_model_config)
+TypeError: train_model() missing 2 required positional arguments: 'style_image' and 'extractor'
+[2024-10-25 21:04:44,457: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:04:44,466: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:04:44,467: INFO: common: created directory at: artifacts]
+[2024-10-25 21:04:44,468: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-25 21:04:44,473: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:04:44,481: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:04:44,483: INFO: common: created directory at: artifacts]
+[2024-10-25 21:04:44,484: INFO: common: created directory at: artifacts/pretrain_model]
+[2024-10-25 21:04:44,492: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:04:44,501: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:04:44,502: INFO: common: created directory at: artifacts]
+[2024-10-25 21:04:44,503: INFO: common: created directory at: artifacts\train_model]
+[2024-10-25 21:04:44,512: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:04:44,521: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:04:44,522: INFO: common: created directory at: artifacts]
+[2024-10-25 21:04:44,523: INFO: main: >>>>>> stage DATA_INGESTION started <<<<<<]
+[2024-10-25 21:04:44,775: INFO: main: >>>>>> stage DATA_INGESTION completed <<<<<<
+
+x==========x]
+[2024-10-25 21:04:44,775: INFO: main: >>>>>> stage PRETRAIN_MODEL started <<<<<<]
+[2024-10-25 21:04:45,616: INFO: main: >>>>>> stage PRETRAIN_MODEL completed <<<<<<
+
+x==========x]
+[2024-10-25 21:04:45,616: INFO: main: >>>>>> stage TRAIN_MODEL started <<<<<<]
+[2024-10-25 21:04:59,842: ERROR: main: unsupported operand type(s) for /: 'str' and 'int']
+Traceback (most recent call last):
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\main.py", line 28, in <module>
+    train_model(image,content_image,style_image, extractor,config=train_model_config)
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\components\train_model.py", line 30, in train_model
+    train_step(image,content_image, style_image, extractor=extractor, config=config)
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\components\train_model.py", line 14, in train_step
+    loss = style_content_loss(outputs, style_targets,content_targets,extractor.num_content_layers,extractor.num_style_layers,config)
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\components\pretrain_model.py", line 63, in style_content_loss
+    style_loss *= config.style_weight / num_style_layers
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+[2024-10-25 21:17:04,979: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:17:04,988: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:17:04,989: INFO: common: created directory at: artifacts]
+[2024-10-25 21:17:04,991: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-25 21:17:04,998: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:17:05,004: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:17:05,005: INFO: common: created directory at: artifacts]
+[2024-10-25 21:17:05,006: INFO: common: created directory at: artifacts/pretrain_model]
+[2024-10-25 21:17:05,011: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:17:05,015: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:17:05,016: INFO: common: created directory at: artifacts]
+[2024-10-25 21:17:05,018: INFO: common: created directory at: artifacts\train_model]
+[2024-10-25 21:17:05,025: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:17:05,032: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:17:05,034: INFO: common: created directory at: artifacts]
+[2024-10-25 21:17:05,036: INFO: main: >>>>>> stage DATA_INGESTION started <<<<<<]
+[2024-10-25 21:17:05,241: INFO: main: >>>>>> stage DATA_INGESTION completed <<<<<<
+
+x==========x]
+[2024-10-25 21:17:05,241: INFO: main: >>>>>> stage PRETRAIN_MODEL started <<<<<<]
+[2024-10-25 21:17:05,941: INFO: main: >>>>>> stage PRETRAIN_MODEL completed <<<<<<
+
+x==========x]
+[2024-10-25 21:17:05,941: INFO: main: >>>>>> stage TRAIN_MODEL started <<<<<<]
+[2024-10-25 21:17:19,703: ERROR: main: unsupported operand type(s) for /: 'str' and 'int']
+Traceback (most recent call last):
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\main.py", line 28, in <module>
+    train_model(image,content_image,style_image, extractor,config=train_model_config)
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\components\train_model.py", line 30, in train_model
+    train_step(image,content_image, style_image, extractor=extractor, config=config)
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\components\train_model.py", line 14, in train_step
+    loss = style_content_loss(outputs, style_targets,content_targets,extractor.num_content_layers,extractor.num_style_layers,config)
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\components\pretrain_model.py", line 68, in style_content_loss
+    style_loss *= config.style_weight / num_style_layers
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+[2024-10-25 21:21:40,750: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:21:40,755: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:21:40,757: INFO: common: created directory at: artifacts]
+[2024-10-25 21:21:40,758: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-25 21:21:40,763: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:21:40,768: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:21:40,770: INFO: common: created directory at: artifacts]
+[2024-10-25 21:21:40,773: INFO: common: created directory at: artifacts/pretrain_model]
+[2024-10-25 21:21:40,780: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:21:40,785: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:21:40,786: INFO: common: created directory at: artifacts]
+[2024-10-25 21:21:40,787: INFO: common: created directory at: artifacts\train_model]
+[2024-10-25 21:21:40,795: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:21:40,802: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:21:40,803: INFO: common: created directory at: artifacts]
+[2024-10-25 21:21:40,806: INFO: main: >>>>>> stage DATA_INGESTION started <<<<<<]
+[2024-10-25 21:21:41,013: INFO: main: >>>>>> stage DATA_INGESTION completed <<<<<<
+
+x==========x]
+[2024-10-25 21:21:41,013: INFO: main: >>>>>> stage PRETRAIN_MODEL started <<<<<<]
+[2024-10-25 21:21:41,684: INFO: main: >>>>>> stage PRETRAIN_MODEL completed <<<<<<
+
+x==========x]
+[2024-10-25 21:21:41,684: INFO: main: >>>>>> stage TRAIN_MODEL started <<<<<<]
+[2024-10-25 21:21:56,421: ERROR: main: unsupported operand type(s) for /: 'str' and 'int']
+Traceback (most recent call last):
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\main.py", line 28, in <module>
+    train_model(image,content_image,style_image, extractor,config=train_model_config)
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\components\train_model.py", line 30, in train_model
+    train_step(image,content_image, style_image, extractor=extractor, config=config)
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\components\train_model.py", line 14, in train_step
+    loss = style_content_loss(outputs, style_targets,content_targets,extractor.num_content_layers,extractor.num_style_layers,config)
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\components\pretrain_model.py", line 67, in style_content_loss
+    content_loss *= config.content_weight / num_content_layers
+TypeError: unsupported operand type(s) for /: 'str' and 'int'
+[2024-10-25 21:22:58,293: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:22:58,305: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:22:58,306: INFO: common: created directory at: artifacts]
+[2024-10-25 21:22:58,308: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-25 21:22:58,313: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:22:58,325: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:22:58,329: INFO: common: created directory at: artifacts]
+[2024-10-25 21:22:58,332: INFO: common: created directory at: artifacts/pretrain_model]
+[2024-10-25 21:22:58,341: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:22:58,345: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:22:58,348: INFO: common: created directory at: artifacts]
+[2024-10-25 21:22:58,350: INFO: common: created directory at: artifacts\train_model]
+[2024-10-25 21:22:58,361: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 21:22:58,375: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 21:22:58,376: INFO: common: created directory at: artifacts]
+[2024-10-25 21:22:58,377: INFO: main: >>>>>> stage DATA_INGESTION started <<<<<<]
+[2024-10-25 21:22:58,684: INFO: main: >>>>>> stage DATA_INGESTION completed <<<<<<
+
+x==========x]
+[2024-10-25 21:22:58,685: INFO: main: >>>>>> stage PRETRAIN_MODEL started <<<<<<]
+[2024-10-25 21:22:59,406: INFO: main: >>>>>> stage PRETRAIN_MODEL completed <<<<<<
+
+x==========x]
+[2024-10-25 21:22:59,407: INFO: main: >>>>>> stage TRAIN_MODEL started <<<<<<]
+[2024-10-25 21:49:02,169: ERROR: main: module 'matplotlib' has no attribute 'imshow']
+Traceback (most recent call last):
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\main.py", line 28, in <module>
+    train_model(image,content_image,style_image, extractor,config=train_model_config)
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\components\train_model.py", line 33, in train_model
+    plt.imshow(tensor_to_image(image))
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\matplotlib\_api\__init__.py", line 226, in __getattr__
+    raise AttributeError(
+AttributeError: module 'matplotlib' has no attribute 'imshow'
+[2024-10-25 22:13:56,362: ERROR: main: name 'args_cope' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\main.py", line 16, in <module>
+    args_cope()
+NameError: name 'args_cope' is not defined
+[2024-10-25 22:14:32,629: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 22:14:32,639: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 22:14:32,642: INFO: common: created directory at: artifacts]
+[2024-10-25 22:14:32,643: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-25 22:14:32,653: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 22:14:32,658: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 22:14:32,659: INFO: common: created directory at: artifacts]
+[2024-10-25 22:14:32,660: INFO: common: created directory at: artifacts/pretrain_model]
+[2024-10-25 22:14:32,670: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 22:14:32,677: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 22:14:32,678: INFO: common: created directory at: artifacts]
+[2024-10-25 22:14:32,679: INFO: common: created directory at: artifacts\train_model]
+[2024-10-25 22:14:32,687: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 22:14:32,690: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 22:14:32,692: INFO: common: created directory at: artifacts]
+[2024-10-25 22:14:32,692: ERROR: main: "'ConfigBox' object has no attribute 'save_keras'"]
+Traceback (most recent call last):
+  File "box\\box.py", line 593, in box.box.Box.__getitem__
+KeyError: 'SAVE_KERAS'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 632, in box.box.Box.__getattr__
+  File "box\\box.py", line 620, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'SAVE_KERAS'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 634, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'SAVE_KERAS'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 648, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'SAVE_KERAS'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 593, in box.box.Box.__getitem__
+KeyError: 'save_keras'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 632, in box.box.Box.__getattr__
+  File "box\\box.py", line 620, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'save_keras'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 634, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'save_keras'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\main.py", line 21, in <module>
+    eval_model_config = ConfigurationManager().get_evaluation_config()
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\config\configuration.py", line 80, in get_evaluation_config
+    save_keras=params.SAVE_KERAS,
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 648, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'save_keras'"
+[2024-10-25 22:16:11,125: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 22:16:11,145: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 22:16:11,146: INFO: common: created directory at: artifacts]
+[2024-10-25 22:16:11,147: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-25 22:16:11,154: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 22:16:11,160: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 22:16:11,162: INFO: common: created directory at: artifacts]
+[2024-10-25 22:16:11,163: INFO: common: created directory at: artifacts/pretrain_model]
+[2024-10-25 22:16:11,170: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 22:16:11,177: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 22:16:11,178: INFO: common: created directory at: artifacts]
+[2024-10-25 22:16:11,180: INFO: common: created directory at: artifacts\train_model]
+[2024-10-25 22:16:11,189: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 22:16:11,197: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 22:16:11,199: INFO: common: created directory at: artifacts]
+[2024-10-25 22:16:11,201: INFO: main: >>>>>> stage DATA_INGESTION started <<<<<<]
+[2024-10-25 22:16:11,562: INFO: main: >>>>>> stage DATA_INGESTION completed <<<<<<
+
+x==========x]
+[2024-10-25 22:16:11,563: INFO: main: >>>>>> stage PRETRAIN_MODEL started <<<<<<]
+[2024-10-25 22:16:12,320: INFO: main: >>>>>> stage PRETRAIN_MODEL completed <<<<<<
+
+x==========x]
+[2024-10-25 22:16:12,320: INFO: main: >>>>>> stage TRAIN_MODEL started <<<<<<]
+[2024-10-25 22:17:07,271: ERROR: main: dtype='string' is not a valid dtype for Keras type promotion.]
+Traceback (most recent call last):
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\keras\src\backend\common\dtypes.py", line 148, in _least_upper_bound
+    bounds = [UB[n] for n in N]
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\keras\src\backend\common\dtypes.py", line 148, in <listcomp>
+    bounds = [UB[n] for n in N]
+KeyError: 'string'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\main.py", line 34, in <module>
+    train_model(image,opt,content_image,style_image, extractor,config=train_model_config)
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\components\train_model.py", line 30, in train_model
+    train_step(image,opt,content_image, style_image, extractor=extractor, config=config)
+  File "C:\Users\14173\Desktop\ML\projects\neural_style_transfer\src\vgg19\components\train_model.py", line 19, in train_step
+    opt.apply_gradients([(grad, image)])
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\keras\src\optimizers\base_optimizer.py", line 344, in apply_gradients
+    self.apply(grads, trainable_variables)
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\keras\src\optimizers\base_optimizer.py", line 409, in apply
+    self._backend_apply_gradients(grads, trainable_variables)
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\keras\src\optimizers\base_optimizer.py", line 472, in _backend_apply_gradients
+    self._backend_update_step(
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\keras\src\backend\tensorflow\optimizer.py", line 122, in _backend_update_step
+    tf.__internal__.distribute.interim.maybe_merge_call(
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\tensorflow\python\distribute\merge_call_interim.py", line 51, in maybe_merge_call
+    return fn(strategy, *args, **kwargs)
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\keras\src\backend\tensorflow\optimizer.py", line 136, in _distributed_tf_update_step
+    distribution.extended.update(
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\tensorflow\python\distribute\distribute_lib.py", line 3005, in update
+    return self._update(var, fn, args, kwargs, group)
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\tensorflow\python\distribute\distribute_lib.py", line 4075, in _update
+    return self._update_non_slot(var, fn, (var,) + tuple(args), kwargs, group)
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\tensorflow\python\distribute\distribute_lib.py", line 4081, in _update_non_slot
+    result = fn(*args, **kwargs)
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\tensorflow\python\autograph\impl\api.py", line 596, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\keras\src\backend\tensorflow\optimizer.py", line 133, in apply_grad_to_update_var
+    return self.update_step(grad, var, learning_rate)
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\keras\src\optimizers\adam.py", line 148, in update_step
+    ops.multiply(m, alpha), ops.add(ops.sqrt(v), self.epsilon)
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\keras\src\ops\numpy.py", line 168, in add
+    return backend.numpy.add(x1, x2)
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\keras\src\backend\tensorflow\sparse.py", line 493, in sparse_wrapper
+    return func(x1, x2)
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\keras\src\backend\tensorflow\numpy.py", line 32, in add
+    dtype = dtypes.result_type(
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\keras\src\backend\common\dtypes.py", line 323, in result_type
+    return _lattice_result_type(
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\keras\src\backend\common\dtypes.py", line 269, in _lattice_result_type
+    out_dtype = _least_upper_bound(
+  File "C:\Users\14173\miniconda3\envs\vgg19\lib\site-packages\keras\src\backend\common\dtypes.py", line 151, in _least_upper_bound
+    raise ValueError(
+ValueError: dtype='string' is not a valid dtype for Keras type promotion.
+[2024-10-25 22:32:57,567: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 22:32:57,587: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 22:32:57,588: INFO: common: created directory at: artifacts]
+[2024-10-25 22:32:57,589: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-25 22:32:57,593: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 22:32:57,600: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 22:32:57,602: INFO: common: created directory at: artifacts]
+[2024-10-25 22:32:57,604: INFO: common: created directory at: artifacts/pretrain_model]
+[2024-10-25 22:32:57,609: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 22:32:57,613: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 22:32:57,614: INFO: common: created directory at: artifacts]
+[2024-10-25 22:32:57,616: INFO: common: created directory at: artifacts\train_model]
+[2024-10-25 22:32:57,625: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-10-25 22:32:57,629: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-10-25 22:32:57,631: INFO: common: created directory at: artifacts]
+[2024-10-25 22:32:57,632: INFO: main: >>>>>> stage DATA_INGESTION started <<<<<<]
+[2024-10-25 22:32:57,885: INFO: main: >>>>>> stage DATA_INGESTION completed <<<<<<
+
+x==========x]
+[2024-10-25 22:32:57,886: INFO: main: >>>>>> stage PRETRAIN_MODEL started <<<<<<]
+[2024-10-25 22:32:58,622: INFO: main: >>>>>> stage PRETRAIN_MODEL completed <<<<<<
+
+x==========x]
+[2024-10-25 22:32:58,623: INFO: main: >>>>>> stage TRAIN_MODEL started <<<<<<]

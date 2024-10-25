@@ -1,0 +1,21 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  content_image_URL: 'https://unsplash.com/photos/l5b_Jd8Ttfg/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzI5NTI3OTk1fA&force=true&w=2400'
+  style_image_URL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1024px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg'
+
+pretrain_model:
+  root_dir: artifacts/pretrain_model
+  weights_dir : 'src\\vgg19\\weights\\vgg19_weights.h5'
+
+train_model:
+  root_dir: artifacts/train_model
+
+evaluate_model:
+  root_dir: artifacts/evaluate_model
+  saved_model_dir: artifacts/saved_model
+  keras_saved_model_dir:  'src\\vgg19\\model\\vgg19.keras'
+  tf_saved_model_dir: 'src\\vgg19\\model\\model_dir'
+  image_saved_dir: 'src\\vgg19\\image\\image.png'
