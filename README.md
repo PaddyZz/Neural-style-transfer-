@@ -1,9 +1,9 @@
-# Neural style transfer(vgg19)
+# Neural style transfer(VGG19)
 
 ## Introduction
 Neural style transfer is an optimization technique used to take two images—a content image and a style reference image (such as an artwork by a famous painter)—and blend them together so the output image looks like the content image, but “painted” in the style of the style reference image.
 
-This is implemented by using tensorflow pretrained model vgg19, accessing and changing the intermediate layers of the model, extracting style and content, running gradient descent and total variation loss and optimizing the output image to match the content statistics of the content image and the style statistics of the style reference image. These statistics are extracted from the images using a convolutional network.
+This is implemented by using tensorflow pretrained model VGG19, accessing and changing the intermediate layers of the model, extracting style and content, running gradient descent and total variation loss and optimizing the output image to match the content statistics of the content image and the style statistics of the style reference image. These statistics are extracted from the images using a convolutional network.
 
 ### Content & style reference image:
 ![image](https://github.com/user-attachments/assets/dc82cb4f-866b-4f43-a305-2c90f1012424)
@@ -77,7 +77,8 @@ docker build
 ```
 
 ## Blog
-blog_link
+[Model_Creating_Blog](https://paddyzz.github.io/projects/neural_style_transfer/)
+[Model_Deployment_Blog](https://paddyzz.github.io/projects/Config_Sagemaker/)
 
 ## Reference
 [Neural style transfer](https://www.tensorflow.org/tutorials/generative/style_transfer#visualize_the_input)
